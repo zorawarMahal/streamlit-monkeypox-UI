@@ -11,7 +11,7 @@ from pages import poxAnalysis
 app = MultiPage()
 
 # Title of the main page
-display = Image.open('cover.jpg')
+display = Image.open('cover.jfif')
 display = np.array(display)
 st.image(display)
 st.title("Skin Image based Pox Analysis")
